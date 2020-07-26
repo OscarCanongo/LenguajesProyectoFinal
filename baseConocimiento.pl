@@ -1,23 +1,23 @@
-%profesoresITC
-profesor("Dan Perez").
-profesor("Alberto Oliart").
-profesor("Claudia Perez Lezama").
-profesor("Rosa Guadalupe").
-profesor("Luciano Garcia").
-profesor("Juan Manuel Calleros").
-profesor("David Augusto Cespedes").
-profesor("Adolfo Centeno").
-profesor("Ana Erendira Flores").
-profesor("Ivan Olmos").
-profesor("Gilberto").
-profesor("Veronica Rodriguez").
-profesor("Sandra Barajas").
-profesor("Jose Eduardo Ferrer").
-profesor("Jose Alberto Palomares").
-profesor("Ana Lilia Reyes").
-profesor("Octavio Loyola").
-profesor("Alba Adriana Romero").
-profesor("Mario Farias").
+  %profesoresITC
+  profesor("Dan Perez").
+  profesor("Alberto Oliart").
+  profesor("Claudia Perez Lezama").
+  profesor("Rosa Guadalupe").
+  profesor("Luciano Garcia").
+  profesor("Juan Manuel Calleros").
+  profesor("David Augusto Cespedes").
+  profesor("Adolfo Centeno").
+  profesor("Ana Erendira Flores").
+  profesor("Ivan Olmos").
+  profesor("Gilberto").
+  profesor("Veronica Rodriguez").
+  profesor("Sandra Barajas").
+  profesor("Jose Eduardo Ferrer").
+  profesor("Jose Alberto Palomares").
+  profesor("Ana Lilia Reyes").
+  profesor("Octavio Loyola").
+  profesor("Alba Adriana Romero").
+  profesor("Mario Farias").
 
 %profesoresMA
 profesor("Nicolas Amado Moranchel").
@@ -119,3 +119,10 @@ materia("Etica aplicada").
 materia("Sistemas inteligentes").
 materia("Proyecto integrador para el desarrollo de soluciones empresariales").
 materia("Introduccion a la vida profesional").
+
+%MateriasMA
+tipoMateria("Matematicas I", "MA").
+tipoMateria("Matematicas II", "MA").
+tipoMateria("Matematicas III", "MA").
+tipoMateria("Probabilidad y Estadistica", "MA").
+tipoMateria("Algebra Lineal", "MA").
