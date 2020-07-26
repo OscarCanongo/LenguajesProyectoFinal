@@ -251,12 +251,19 @@ materia("Sistemas operativos").
 
 %%%%%%%%999999
 
+materiaS(X,Y) :- materiaa(X,Y).
+
 %%%%%%%%10
 semestrey(X,Y) :- Y = 1 -> materiaa(X,"1"); 
                   Y = 2 -> materiaa(X,"2");
                   Y = 3 -> materiaa(X,"3");
-                  Y = 4 -> materiaa(X,"4").
-        %%faltaaa
+                  Y = 4 -> materiaa(X,"4");
+                  Y = 5 -> materiaa(X,"5");
+                  Y = 6 -> materiaa(X,"6");
+                  Y = 7 -> materiaa(X,"7");
+                  Y = 8 -> materiaa(X,"8");
+                  Y = 9 -> materiaa(X,"9");
+
 
 %PrimerSemestre
 materiaa("Fundamentos de Programacion", "1").
@@ -292,37 +299,37 @@ materiaa("Analisis y diseno de algoritmos", "4").
 materiaa("Fundamentos de redes", "4").
 
 %QuintoSemestre
-materiaa("Humanidades y bellas artes").
-materiaa("Algebra lineal").
-materiaa("Analisis y modelacion de sistemas de software").
-materiaa("Sistemas operativos").
-materiaa("Matematicas computacionales").
-materiaa("Interconexion de redes").
+materiaa("Humanidades y bellas artes","5").
+materiaa("Algebra lineal", "5").
+materiaa("Analisis y modelacion de sistemas de software","5").
+materiaa("Sistemas operativos","5").
+materiaa("Matematicas computacionales","5").
+materiaa("Interconexion de redes","5").
 
 %SextoSemestre
-materiaa("Emprendimiento").
-materiaa("Proyectos de desarrollo para dispositivos moviles"). 
-materiaa("Programacion avanzada").
-materiaa("Bases de datos avanzadas").
-materiaa("Calidad y pruebas de software").
-materiaa("Evaluacion y Administracion de Proyectos").
+materiaa("Emprendimiento", "6").
+materiaa("Proyectos de desarrollo para dispositivos moviles","6"). 
+materiaa("Programacion avanzada","6").
+materiaa("Bases de datos avanzadas","6").
+materiaa("Calidad y pruebas de software","6").
+materiaa("Evaluacion y Administracion de Proyectos","6").
 
 %SeptimoSemestre
-materiaa("Ciudadania").
-materiaa("Lenguajes de programacion").
-materiaa("Desarrollo de aplicaciones web").
-materiaa("Seguridad informatica").
-materiaa("Administracion de proyectos de ingenieria de software").
+materiaa("Ciudadania","7").
+materiaa("Lenguajes de programacion","7").
+materiaa("Desarrollo de aplicaciones web","7").
+materiaa("Seguridad informatica","7").
+materiaa("Administracion de proyectos de ingenieria de software","7").
 
 %OctavoSemestre
-materiaa("Metodos cuantitativos y simulacion").
-materiaa("Graficas computacionales").
-materiaa("Diseno de compiladores").
-materiaa("Diseno y arquitectura de software").
-materiaa("Laboratorio de desarrollo de aplicaciones Web").
+materiaa("Metodos cuantitativos y simulacion","8").
+materiaa("Graficas computacionales","8").
+materiaa("Diseno de compiladores","8").
+materiaa("Diseno y arquitectura de software","8").
+materiaa("Laboratorio de desarrollo de aplicaciones Web","8").
 
 %NovenoSemestre
-materiaa("Etica aplicada").
-materiaa("Sistemas inteligentes").
-materiaa("Proyecto integrador para el desarrollo de soluciones empresariales").
-materiaa("Introduccion a la vida profesional").
+materiaa("Etica aplicada","9").
+materiaa("Sistemas inteligentes","9").
+materiaa("Proyecto integrador para el desarrollo de soluciones empresariales","9").
+materiaa("Introduccion a la vida profesional","9").

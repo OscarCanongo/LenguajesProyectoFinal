@@ -4,7 +4,7 @@ profesor(X).
 
 %2CHEMAAA
 %Muestra_profesores_que_imparten_X_materia_en_general
-ximpartea(discretas, X)
+ximpartea(discretas, X).
 
 %3CHEMAAA
 %Muestra_materias_que_imparte_profesor_X
@@ -29,6 +29,10 @@ nocomputacion(X).
 %8CHEMAAA
 %Muestra_los_requisitos_de_X_(materias requisitos)
 matreq(fundamentos_redes, Y).
+
+%9
+%Muestra el semestre al que pertenece la materia X
+materiaS(X,Y).
 
 %10CHEMAAA
 %Muestra_las_materias_del_semestre_X
