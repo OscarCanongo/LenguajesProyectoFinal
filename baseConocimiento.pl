@@ -49,3 +49,73 @@ profesor("Alma Karla Sandoval").
 profesor("Irving Juarez").
 profesor("Maria Concepcion Castillo").
 profesor("Cristian Consuelo Cruz").
+
+%materias
+
+%PrimerSemestre
+materia("Fundamentos de Programacion").
+materia("Introduccion a la carrera en Tecnologias Computacionales").
+materia("Matematicas Discretas").
+materia("Fisica I").
+materia("Ciencias Naturales y Desarrollo Sustentable").
+materia("Matematicas I").
+materia("Lengua Extranjera").
+
+%SegundoSemestre
+materia("Programacion Orientada a Objetos").
+materia("Organizacion Computacional").
+materia("Matematicas II").
+materia("Analisis y expresion verbal").
+materia("Fundamentos de diseno interactivo").
+materia("Administracion e inovacion en modelos de negocios").
+
+%TercerSemestre
+materia("Matematicas III").
+materia("Probabilidad y Estadistica").
+materia("Electricidad y Magnetismo").
+materia("Etica, persona y sociedad").
+materia("Estructura de datos").
+materia("Fundamentos de ingenieria de software").
+
+%CuartoSemestre
+materia("Expresion verbal en el ambito profesional").
+materia("Bases de datos").
+materia("Proyecto de desarrollo de videojuegos").
+materia("Metodos numericos en ingenieria").
+materia("Analisis y diseno de algoritmos").
+
+%QuintoSemestre
+materia("Humanidades y bellas artes").
+materia("Algebra lineal").
+materia("Analisis y modelacion de sistemas de software").
+materia("Sistemas operativos").
+materia("Matematicas Computacionales").
+materia("Interconexion de redes").
+
+%SextoSemestre
+materia("Emprendimiento").
+materia("Proyecto de desarrollo para dispositivos moviles").
+materia("Programacion avanzada").
+materia("Bases de datos avanzadas").
+materia("Calidad y pruebas de software").
+materia("Evaluacion y Administracion de Proyectos").
+
+%SeptimoSemestre
+materia("Ciudadania").
+materia("Lenguajes de programacion").
+materia("Desarrollo de aplicaciones web").
+materia("Seguridad informatica").
+materia("Administracion de proyectos de ingenieria de software").
+
+%OctavoSemestre
+materia("Metodos cuantitativos y simulacion").
+materia("Graficas Computacional").
+materia("Diseno de compiladores").
+materia("Diseno y arquitectura de software").
+materia("Laboratorio de desarrollo de aplicaciones web").
+
+%NovenoSemestre
+materia("Etica aplicada").
+materia("Sistemas inteligentes").
+materia("Proyecto integrador para el desarrollo de soluciones empresariales").
+materia("Introduccion a la vida profesional").
