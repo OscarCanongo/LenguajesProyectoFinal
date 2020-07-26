@@ -30,5 +30,8 @@ nocomputacion(X).
 %Muestra_los_requisitos_de_X_(materias requisitos)
 matreq(fundamentos_redes, Y).
 
+%10CHEMAAA
+%Muestra_las_materias_del_semestre_X
+semestrey(X,1).
 
 
