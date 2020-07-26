@@ -126,3 +126,37 @@ tipoMateria("Matematicas II", "MA").
 tipoMateria("Matematicas III", "MA").
 tipoMateria("Probabilidad y Estadistica", "MA").
 tipoMateria("Algebra Lineal", "MA").
+
+%MateriasTC
+tipoMateria("Matematicas Discretas", "TC").
+tipoMateria("Fundamentos de Programacion","TC").
+tipoMateria("Introduccion a la carrera en Tecnologias Computacionales","TC").
+tipoMateria("Fundamentos de diseno interactivo", "TC").
+tipoMateria("Organizacion computacional","TC").
+tipoMateria("Programacion orientada a objetos","TC").
+tipoMateria("Estructura de datos","TC").
+tipoMateria("Fundamentos de ingenieria de software","TC").
+tipoMateria("Bases de datos","TC").
+tipoMateria("Proyecto de desarrollo de videojuegos","TC").
+tipoMateria("Analisis y diseno de algoritmos","TC").
+tipoMateria("Fundamentos de redes","TC").
+tipoMateria("Metodos numericos en ingenieria","TC").
+tipoMateria("Analisis y modelacion de sistemas de software","TC").
+tipoMateria("Sistemas operativos","TC").
+tipoMateria("Matematicas computacionales","TC").
+tipoMateria("Interconexion de redes","TC").
+tipoMateria("Proyectos de desarrollo para dispositivos moviles","TC").
+tipoMateria("Programacion avanzada","TC").
+tipoMateria("Bases de datos avanzadas","TC").
+tipoMateria("Calidad y pruebas de software","TC").
+tipoMateria("Lenguajes de programacion","TC").
+tipoMateria("Desarrollo de aplicaciones web","TC").
+tipoMateria("Seguridad informatica","TC").
+tipoMateria("Administracion de proyectos de ingenieria de software","TC").
+tipoMateria("Metodos cuantitativos y simulacion","TC").
+tipoMateria("Graficas computacionales","TC").
+tipoMateria("Diseno de compiladores","TC").
+tipoMateria("Diseno y arquitectura de software","TC").
+tipoMateria("Laboratorio de desarrollo de aplicaciones Web","TC").
+tipoMateria("Sistemas inteligentes","TC").
+tipoMateria("Proyecto integrador para el desarrollo de soluciones empresariales","TC").

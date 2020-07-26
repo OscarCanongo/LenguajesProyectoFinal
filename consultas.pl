@@ -6,6 +6,10 @@ profesor(X).
 %Muestra_las_materias_del_plan_TODAS
 materia(X).
 
+%5
+%Muestra_las_materias_de_computacion_clave_TC
+tipoMateria(X,"TC").
+
 %6
 %Muestra_las_materias_de_matematicas_clave_MA
-tipoMateria(X,MA).
+tipoMateria(X,"MA").
