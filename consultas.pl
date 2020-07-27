@@ -32,7 +32,7 @@ requi("Desarrollo de aplicaciones web", X).
 
 %9
 %Muestra_el_semestre_al_que_pertenece_la_materia_X
-materiaa("POO",Y).
+materiaa("Lenguajes de programacion",Y).
 
 %10
 %Muestra_las_materias_del_semestre_X
