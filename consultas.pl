@@ -2,13 +2,13 @@
 %Muestra_profesores_que_imparten_clases
 profesor(X).
 
-%2CHEMAAA
+%2
 %Muestra_profesores_que_imparten_X_materia_en_general
-ximpartea(discretas, X).
+imparte(X, "Fundamentos de programacion").
 
-%3CHEMAAA
+%3
 %Muestra_materias_que_imparte_profesor_X
-ximpartidapor(X, dan_perez).
+imparte("Dan Perez", X).
 
 %4
 %Muestra_las_materias_del_plan_TODAS
@@ -22,20 +22,18 @@ tipoMateria(X,"TC").
 %Muestra_las_materias_de_matematicas_clave_MA
 tipoMateria(X,"MA").
 
-%7CHEMAAA
+%7
 %Muestra_las_materias_que_no_son_de_computacion
 nocomputacion(X).
 
-%8CHEMAAA
-%Muestra_los_requisitos_de_X_(materias requisitos)
+%8
+%Muestra_los_requisitos_de_X_materias_requisitos
 matreq(fundamentos_redes, Y).
 
 %9
-%Muestra el semestre al que pertenece la materia X
-materiaS(X,Y).
+%Muestra_el_semestre_al_que_pertenece_la_materia_X
+materiaa("POO",Y).
 
-%10CHEMAAA
+%10
 %Muestra_las_materias_del_semestre_X
 semestrey(X,1).
-
-

@@ -95,7 +95,7 @@ materia("Interconexion de redes").
 
 %SextoSemestre
 materia("Emprendimiento").
-materia("Proyectos de desarrollo para dispositivos moviles"). 
+materia("Proyectos de desarrollo para dispositivos moviles").
 materia("Programacion avanzada").
 materia("Bases de datos avanzadas").
 materia("Calidad y pruebas de software").
@@ -161,55 +161,134 @@ tipoMateria("Diseno y arquitectura de software","TC").
 tipoMateria("Laboratorio de desarrollo de aplicaciones Web","TC").
 tipoMateria("Sistemas inteligentes","TC").
 tipoMateria("Proyecto integrador para el desarrollo de soluciones empresariales","TC").
+tipoMateria("Metodos numericos en ingenieria").
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHEMA
-%%%%%%%%%22222
-ximpartea(discretas, X) :- discretas(X).
-discretas(alberto_oliart).
-discretas(ivan_olmos).
+%Imparte
+imparte("Dan Perez", "Fundamentos de programacion").
+imparte("Dan Perez", "Programacion orientada a objetos").
+imparte("Dan Perez", "Estructura de datos").
+imparte("Dan Perez", "Metodos cuantitativos y simulacion").
+imparte("Dan Perez", "Graficas Computacionales").
+imparte("Dan Perez", "Bases de datos").
+imparte("Dan Perez", "Bases de datos avanzadas").
+imparte("Dan Perez", "Lenguajes de programacion").
+imparte("Dan Perez", "Matematicas discretas").
 
+imparte("Alberto Oliart", "Matematicas discretas").
+imparte("Alberto Oliart", "Analisis y diseno de algoritmos").
+imparte("Alberto Oliart", "Matematicas computacionales").
+imparte("Alberto Oliart", "Sistemas operativos").
+imparte("Alberto Oliart", "Programacion avanzada").
+imparte("Alberto Oliart", "Diseno de compiladores").
+imparte("Alberto Oliart", "Sistemas operativos").
 
+imparte("Claudia Perez", "Introduccion a la carrera en Tecnologias Computacionales").
+imparte("Claudia Perez", "Fundamentos de redes").
+imparte("Claudia Perez", "Fundamentos de ingenieria de software").
+imparte("Claudia Perez", "Evaluacion y Administracion de proyectos").
 
-ximparteb(fundamentos_program, X) :- fundamentos_program(X).
-fundamentos_program(claudia_perez_lezama).
-fundamentos_program(dan_perez).
+imparte("Rosa Guadalupe", "Programacion avanzada").
+imparte("Rosa Guadalupe", "Sistemas operativos").
+imparte("Rosa Guadalupe", "Programacion orientada a objetos").
+imparte("Rosa Guadalupe", "Proyecto de desarrollo para dispositivos moviles").
 
-ximpartec(introdiccion_itc, X) :- introdiccion_itc(X).
-introdiccion_itc(claudia_perez_lezama).
-introdiccion_itc(jorde_andrade).
+imparte("Luciano Garcia", "Lenguajes de programacion").
+imparte("Luciano Garcia", "Bases de datos avanzadas").
+imparte("Luciano Garcia", "Laboratorio de desarrollo de aplicaciones web").
 
-ximparted(fundamentos_diseno_interactivo, X) :- fundamentos_diseno_interactivo(X).
-fundamentos_diseno_interactivo(ana_erendira_flores).
+imparte("Juan Calleros", "Calidad y pruebas de software").
+imparte("Juan Calleros", "Diseno y arquitectura de software").
+imparte("Juan Calleros", "Proyecto integrador de soluciones empresariales").
 
-ximpartee(organizacion_computacional, X) :- organizacion_computacional(X).
-organizacion_computacional(gilberto).
+imparte("David Cespedes", "Calidad y pruebas de software").
+imparte("David Cespedes", "Desarrollo de aplicaciones web").
+imparte("David Cespedes", "Laboratorio de desarrollo de aplicaciones web").
 
-ximpartef(poo, X) :- poo(X).
-poo(dan_perez).
-poo(rosa_gudalupe).
-poo(sandra_barajas).
-poo(veronica_rodriguez).
+imparte("Adolfo Centeno", "Desarrollo de aplicaciones web").
+imparte("Adolfo Centeno", "Fundamentos de ingenieria de software").
+imparte("Adolfo Centeno", "Administracion de proyectos de ingenieria de software").
 
-ximparteg(estructuras, Profesor) :- estructuras(Profesor).
-estructuras(dan_perez).
-estructuras(alberto_oliart).
+imparte("Ana Erendida Flores", "Analisis y modelacion de sistemas de software").
 
-%%falta
+imparte("Ivan Olmos", "Graficas computacionales").
 
-%%%%%%%%%33333
-ximpartidapor(X,Y) :- ximpartea(X, Y); ximparteb(X, Y); 
-                      ximpartec(X, Y); ximparted(X, Y);
-                      ximpartee(X, Y); ximpartef(X, Y);
-                      ximparteg(X, Y). 
+imparte("Gilberto", "Organizacion computacional").
 
-%%falta
+imparte("Veronica Rodriguez", "Estructura de datos").
+imparte("Veronica Rodriguez", "Metodos cuantitativos y simulacion").
 
-%%%%%%%%%77777
+imparte("Sandra Barajas", "Programacion orientada a objetos").
+imparte("Sandra Barajas", "Metodos numerios en ingenieria").
+
+imparte("Eduardo Ferrer", "Proyecto de desarrollo de videojuegos").
+imparte("Eduardo Ferrer", "Programacion avanzada").
+
+imparte("Alberto Palomares", "Interconexion de redes").
+
+imparte("Ana Lilia Reyes", "Evaluacion de proyectos").
+
+imparte("Octavio Loyola", "Sistemas inteligentes").
+imparte("Octavio Loyola", "Desarrollo de aplicaciones web").
+
+imparte("Alba Romero", "Fundamentos de programacion").
+
+imparte("Mario Farias", "Seguridad informatica").
+
+imparte("Montserrat Juarez", "Matematicas I").
+
+imparte("Gibran Sayeg", "Matematicas II").
+
+imparte("Ivan Martinez", "Matematicas II").
+
+imparte("Juan Pablo Trevino", "Matematicas III").
+
+imparte("Julio Ramirez", "Matematicas III").
+
+imparte("Aida Ignacia Salazar", "Probabilidad y Estadistica").
+
+imparte("Mariana Olivares", "Probabilidad y Estadistica").
+
+imparte("Orlando Epifanio", "Algebra Lineal").
+
+imparte("Moises Araiza", "Algebra Lineal").
+
+imparte("Humbelina Bolanos", "Analisis y expresion verbal").
+
+imparte("Myriam Nieva", "Administracion e innovacion en modelos de negocio").
+
+imparte("Luis Ricardo Fernandez", "Emprendimiento").
+
+imparte("Flor del Carmen Paleta", "Fisica I").
+
+imparte("Andrei Solorzano", "Electricidad y Magnetismo").
+
+imparte("Javier Gomez", "Etica, persona y sociedad").
+
+imparte("Iliana Barcenas", "Expresion verbal en el ambito profesional").
+
+imparte("Claire de Sagey", "Lengua Extranjera").
+
+imparte("Ericka Bauchwitz", "Lengua Extranjera").
+
+imparte("Guadalupe Castro", "Lengua Extranjera").
+
+imparte("Antonio Mendez", "Electricidad y Magnetismo").
+
+imparte("Alma Karla Sandoval", "Humanidades y bellas artes").
+
+imparte("Irving Juarez", "Analisis y expresion verbal").
+
+imparte("Maria Concepcion Castillo", "Etica, persona y sociedad").
+
+imparte("Cristian Consuelo", "Introduccion a la vida profesional").
+
+%MateriasNoTC
 nocomputacion(X) :- materia(X), not(tipoMateria(X,"TC")).
 
+%Corregit
 %%%%%%%%%888888
-matreq(X, Y) :-   X = poo -> reqa(Y); 
-                  X = orga -> reqa(Y); 
+matreq(X, Y) :-   X = poo -> reqa(Y);
+                  X = orga -> reqa(Y);
                   X = fundamentos_diseno_interactivo -> reqa(Y);
                   X = mates_computacionales -> reqb(Y);
                   X = estructuras -> reqc(Y);
@@ -220,33 +299,7 @@ reqa("Fundamentos de Programacion").
 reqb("Matematicas Discretas").
 reqc("Programacion orientada a objetos").
 reqd("Organizacion computacional").
-/*
-1P
-materia("Fundamentos de Programacion").
 
-materia("Matematicas Discretas").
-
-materia("Programacion orientada a objetos").
-
-materia("Organizacion computacional").
-
-materia("Fundamentos de diseno interactivo").
-
-materia("Matematicas computacionales").
-
-2P
-materia("Programacion orientada a objetos").
-
-materia("Organizacion computacional").
-
-materia("Estructura de datos").
-
-materia("Fundamentos de redes").
-
-materia("Sistemas operativos").
-
-
-*/
 %%falta
 
 %%%%%%%%999999
@@ -254,7 +307,7 @@ materia("Sistemas operativos").
 materiaS(X,Y) :- materiaa(X,Y).
 
 %%%%%%%%10
-semestrey(X,Y) :- Y = 1 -> materiaa(X,"1"); 
+semestrey(X,Y) :- Y = 1 -> materiaa(X,"1");
                   Y = 2 -> materiaa(X,"2");
                   Y = 3 -> materiaa(X,"3");
                   Y = 4 -> materiaa(X,"4");
@@ -308,7 +361,7 @@ materiaa("Interconexion de redes","5").
 
 %SextoSemestre
 materiaa("Emprendimiento", "6").
-materiaa("Proyectos de desarrollo para dispositivos moviles","6"). 
+materiaa("Proyectos de desarrollo para dispositivos moviles","6").
 materiaa("Programacion avanzada","6").
 materiaa("Bases de datos avanzadas","6").
 materiaa("Calidad y pruebas de software","6").
