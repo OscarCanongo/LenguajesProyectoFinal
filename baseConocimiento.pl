@@ -20,7 +20,6 @@ profesor("Alba Adriana Romero").
 profesor("Mario Farias").
 
 %profesoresMA
-profesor("Nicolas Amado Moranchel").
 profesor("Maria Montserrat Juarez").
 profesor("Gibran Sayeg Sanchez").
 profesor("Ivan Martinez").
@@ -182,10 +181,10 @@ imparte("Alberto Oliart", "Programacion avanzada").
 imparte("Alberto Oliart", "Diseno de compiladores").
 imparte("Alberto Oliart", "Sistemas operativos").
 
-imparte("Claudia Perez", "Introduccion a la carrera en Tecnologias Computacionales").
-imparte("Claudia Perez", "Fundamentos de redes").
-imparte("Claudia Perez", "Fundamentos de ingenieria de software").
-imparte("Claudia Perez", "Evaluacion y Administracion de proyectos").
+imparte("Claudia Perez Lezama", "Introduccion a la carrera en Tecnologias Computacionales").
+imparte("Claudia Perez Lezama", "Fundamentos de redes").
+imparte("Claudia Perez Lezama", "Fundamentos de ingenieria de software").
+imparte("Claudia Perez Lezama", "Evaluacion y Administracion de proyectos").
 
 imparte("Rosa Guadalupe", "Programacion avanzada").
 imparte("Rosa Guadalupe", "Sistemas operativos").
@@ -196,13 +195,13 @@ imparte("Luciano Garcia", "Lenguajes de programacion").
 imparte("Luciano Garcia", "Bases de datos avanzadas").
 imparte("Luciano Garcia", "Laboratorio de desarrollo de aplicaciones web").
 
-imparte("Juan Calleros", "Calidad y pruebas de software").
-imparte("Juan Calleros", "Diseno y arquitectura de software").
-imparte("Juan Calleros", "Proyecto integrador de soluciones empresariales").
+imparte("Juan Manuel Calleros", "Calidad y pruebas de software").
+imparte("Juan Manuel Calleros", "Diseno y arquitectura de software").
+imparte("Juan Manuel Calleros", "Proyecto integrador de soluciones empresariales").
 
-imparte("David Cespedes", "Calidad y pruebas de software").
-imparte("David Cespedes", "Desarrollo de aplicaciones web").
-imparte("David Cespedes", "Laboratorio de desarrollo de aplicaciones web").
+imparte("David Augusto Cespedes", "Calidad y pruebas de software").
+imparte("David Augusto Cespedes", "Desarrollo de aplicaciones web").
+imparte("David Augusto Cespedes", "Laboratorio de desarrollo de aplicaciones web").
 
 imparte("Adolfo Centeno", "Desarrollo de aplicaciones web").
 imparte("Adolfo Centeno", "Fundamentos de ingenieria de software").
@@ -220,23 +219,23 @@ imparte("Veronica Rodriguez", "Metodos cuantitativos y simulacion").
 imparte("Sandra Barajas", "Programacion orientada a objetos").
 imparte("Sandra Barajas", "Metodos numerios en ingenieria").
 
-imparte("Eduardo Ferrer", "Proyecto de desarrollo de videojuegos").
-imparte("Eduardo Ferrer", "Programacion avanzada").
+imparte("Jose Eduardo Ferrer", "Proyecto de desarrollo de videojuegos").
+imparte("Jose Eduardo Ferrer", "Programacion avanzada").
 
-imparte("Alberto Palomares", "Interconexion de redes").
+imparte("Jose Alberto Palomares", "Interconexion de redes").
 
 imparte("Ana Lilia Reyes", "Evaluacion de proyectos").
 
 imparte("Octavio Loyola", "Sistemas inteligentes").
 imparte("Octavio Loyola", "Desarrollo de aplicaciones web").
 
-imparte("Alba Romero", "Fundamentos de programacion").
+imparte("Alba Adriana Romero", "Fundamentos de programacion").
 
 imparte("Mario Farias", "Seguridad informatica").
 
-imparte("Montserrat Juarez", "Matematicas I").
+imparte("Maria Montserrat Juarez", "Matematicas I").
 
-imparte("Gibran Sayeg", "Matematicas II").
+imparte("Gibran Sayeg Sanchez", "Matematicas II").
 
 imparte("Ivan Martinez", "Matematicas II").
 
@@ -248,9 +247,9 @@ imparte("Aida Ignacia Salazar", "Probabilidad y Estadistica").
 
 imparte("Mariana Olivares", "Probabilidad y Estadistica").
 
-imparte("Orlando Epifanio", "Algebra Lineal").
+imparte("Orlando Epifanio Gonzalez", "Algebra Lineal").
 
-imparte("Moises Araiza", "Algebra Lineal").
+imparte("Moises Elias Araiza", "Algebra Lineal").
 
 imparte("Humbelina Bolanos", "Analisis y expresion verbal").
 
