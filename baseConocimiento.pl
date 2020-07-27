@@ -285,22 +285,56 @@ imparte("Cristian Consuelo", "Introduccion a la vida profesional").
 %MateriasNoTC
 nocomputacion(X) :- materia(X), not(tipoMateria(X,"TC")).
 
-%Corregit
 %%%%%%%%%888888
-matreq(X, Y) :-   X = poo -> reqa(Y);
-                  X = orga -> reqa(Y);
-                  X = fundamentos_diseno_interactivo -> reqa(Y);
-                  X = mates_computacionales -> reqb(Y);
-                  X = estructuras -> reqc(Y);
-                  X = so -> reqd(Y);
-                  X = fundamentos_redes -> reqd(Y).
+%PrimerSemestre
+requi("Fundamentos de programacion", "Programacion Orientada a Objetos").
+requi("Fundamentos de programacion", "Fundamentos de diseno interactivo").
+requi("Fundamentos de programacion", "Organizacion Computacional").
 
-reqa("Fundamentos de Programacion").
-reqb("Matematicas Discretas").
-reqc("Programacion orientada a objetos").
-reqd("Organizacion computacional").
+requi("Matematicas Discretas", "Matematicas Computacionales").
 
-%%falta
+%SegundoSemestre
+requi("Programacion Orientada a Objetos", "Estructura de Datos").
+
+requi("Organizacion Computacional", "Sistemas Operativos").
+requi("Organizacion Computacional", "Fundamentos de Redes").
+
+%TercerSemestre
+requi("Estructura de Datos", "Analisis y Diseño de Algoritmos").
+requi("Estructura de Datos", "Metodos Cuantitativos y Simulacion").
+
+requi("Fundamentos de Ingenieria de Software", "Bases de Datos").
+
+%CuartoSemestre
+requi("Bases de Datos", "Desarrollo de Aplicaciones Web").
+requi("Bases de Datos", "Analisis y Modelacion de Sistemas de Software").
+requi("Bases de Datos", "Bases de Datos Avanzadas").
+
+requi("Analisis y Diseno de Algoritmos", "Programacion Avanzada").
+requi("Analisis y Diseno de Algoritmos", "Graficas Computacionales").
+
+requi("Fundamentos de Redes", "Interconexion de Redes").
+requi("Fundamentos de Redes", "Seguridad Informatica").
+
+%QuintoSemestre
+requi("Interconexion de Redes", "Desarrollo de aplicaciones web").
+
+requi("Matematicas Computacionales", "Lenguajes de Programacion").
+
+requi("Sistemas Operativos", "Programacion avanzada").
+requi("Sistemas Operativos", "Seguridad informatica").
+
+requi("Analisis y Modelacion de Sistemas de Software", "Proyecto de desarrollo de dispositivos moviles").
+
+%SextoSemestre
+requi("Proyecto de desarrollo de dispositivos moviles", "Proyecto Integrador para el desarrollo de soluciones empresariales").
+
+requi("Evaluacion y administracion de proyectos", "Administracion de proyectos de ingenieria de software").
+
+%SeptimoSemestre
+requi("Lenguajes de Programacion", "Diseño de Compiladores").
+
+requi("Desarrollo de aplicaciones web", "Laboratorio de desarrollo de aplicaciones web").
 
 %%%%%%%%999999
 

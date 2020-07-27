@@ -28,7 +28,7 @@ nocomputacion(X).
 
 %8
 %Muestra_los_requisitos_de_X_materias_requisitos
-matreq(fundamentos_redes, Y).
+requi("Desarrollo de aplicaciones web", X).
 
 %9
 %Muestra_el_semestre_al_que_pertenece_la_materia_X
