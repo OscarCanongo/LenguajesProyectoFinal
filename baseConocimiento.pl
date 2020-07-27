@@ -160,20 +160,19 @@ tipoMateria("Diseno y arquitectura de software","TC").
 tipoMateria("Laboratorio de desarrollo de aplicaciones Web","TC").
 tipoMateria("Sistemas inteligentes","TC").
 tipoMateria("Proyecto integrador para el desarrollo de soluciones empresariales","TC").
-tipoMateria("Metodos numericos en ingenieria").
 
 %Imparte
-imparte("Dan Perez", "Fundamentos de programacion").
+imparte("Dan Perez", "Fundamentos de Programacion").
 imparte("Dan Perez", "Programacion orientada a objetos").
 imparte("Dan Perez", "Estructura de datos").
 imparte("Dan Perez", "Metodos cuantitativos y simulacion").
-imparte("Dan Perez", "Graficas Computacionales").
+imparte("Dan Perez", "Graficas computacionales").
 imparte("Dan Perez", "Bases de datos").
 imparte("Dan Perez", "Bases de datos avanzadas").
 imparte("Dan Perez", "Lenguajes de programacion").
-imparte("Dan Perez", "Matematicas discretas").
+imparte("Dan Perez", "Matematicas Discretas").
 
-imparte("Alberto Oliart", "Matematicas discretas").
+imparte("Alberto Oliart", "Matematicas Discretas").
 imparte("Alberto Oliart", "Analisis y diseno de algoritmos").
 imparte("Alberto Oliart", "Matematicas computacionales").
 imparte("Alberto Oliart", "Sistemas operativos").
@@ -184,26 +183,26 @@ imparte("Alberto Oliart", "Sistemas operativos").
 imparte("Claudia Perez Lezama", "Introduccion a la carrera en Tecnologias Computacionales").
 imparte("Claudia Perez Lezama", "Fundamentos de redes").
 imparte("Claudia Perez Lezama", "Fundamentos de ingenieria de software").
-imparte("Claudia Perez Lezama", "Evaluacion y Administracion de proyectos").
+imparte("Claudia Perez Lezama", "Evaluacion y Administracion de Proyectos").
 
 imparte("Rosa Guadalupe", "Programacion avanzada").
 imparte("Rosa Guadalupe", "Sistemas operativos").
 imparte("Rosa Guadalupe", "Programacion orientada a objetos").
-imparte("Rosa Guadalupe", "Proyecto de desarrollo para dispositivos moviles").
+imparte("Rosa Guadalupe", "Proyectos de desarrollo para dispositivos moviles").
 
 imparte("Luciano Garcia", "Lenguajes de programacion").
 imparte("Luciano Garcia", "Bases de datos avanzadas").
-imparte("Luciano Garcia", "Laboratorio de desarrollo de aplicaciones web").
+imparte("Luciano Garcia", "Laboratorio de desarrollo de aplicaciones Web").
 
 imparte("Juan Manuel Calleros", "Calidad y pruebas de software").
 imparte("Juan Manuel Calleros", "Diseno y arquitectura de software").
-imparte("Juan Manuel Calleros", "Proyecto integrador de soluciones empresariales").
+imparte("Juan Manuel Calleros", "Proyecto integrador para el desarrollo de soluciones empresariales").
 
 imparte("David Augusto Cespedes", "Calidad y pruebas de software").
 imparte("David Augusto Cespedes", "Desarrollo de aplicaciones web").
-imparte("David Augusto Cespedes", "Laboratorio de desarrollo de aplicaciones web").
+imparte("David Augusto Cespedes", "Laboratorio de desarrollo de aplicaciones Web").
 
-imparte("Adolfo Centeno", "Desarrollo de aplicaciones web").
+imparte("Adolfo Centeno", "Desarrollo de aplicaciones Web").
 imparte("Adolfo Centeno", "Fundamentos de ingenieria de software").
 imparte("Adolfo Centeno", "Administracion de proyectos de ingenieria de software").
 
@@ -217,19 +216,19 @@ imparte("Veronica Rodriguez", "Estructura de datos").
 imparte("Veronica Rodriguez", "Metodos cuantitativos y simulacion").
 
 imparte("Sandra Barajas", "Programacion orientada a objetos").
-imparte("Sandra Barajas", "Metodos numerios en ingenieria").
+imparte("Sandra Barajas", "Metodos numericos en ingenieria").
 
 imparte("Jose Eduardo Ferrer", "Proyecto de desarrollo de videojuegos").
 imparte("Jose Eduardo Ferrer", "Programacion avanzada").
 
 imparte("Jose Alberto Palomares", "Interconexion de redes").
 
-imparte("Ana Lilia Reyes", "Evaluacion de proyectos").
+imparte("Ana Lilia Reyes", "Evaluacion y Administracion de Proyectos").
 
 imparte("Octavio Loyola", "Sistemas inteligentes").
 imparte("Octavio Loyola", "Desarrollo de aplicaciones web").
 
-imparte("Alba Adriana Romero", "Fundamentos de programacion").
+imparte("Alba Adriana Romero", "Fundamentos de Programacion").
 
 imparte("Mario Farias", "Seguridad informatica").
 
@@ -247,25 +246,29 @@ imparte("Aida Ignacia Salazar", "Probabilidad y Estadistica").
 
 imparte("Mariana Olivares", "Probabilidad y Estadistica").
 
-imparte("Orlando Epifanio Gonzalez", "Algebra Lineal").
+imparte("Orlando Epifanio Gonzalez", "Algebra lineal").
 
-imparte("Moises Elias Araiza", "Algebra Lineal").
+imparte("Moises Elias Araiza", "Algebra lineal").
 
 imparte("Humbelina Bolanos", "Analisis y expresion verbal").
 
-imparte("Myriam Nieva", "Administracion e innovacion en modelos de negocio").
+imparte("Myriam Nieva", "Administracion e inovacion en modelos de negocios").
 
 imparte("Luis Ricardo Fernandez", "Emprendimiento").
 
 imparte("Flor del Carmen Paleta", "Fisica I").
 
-imparte("Andrei Solorzano", "Electricidad y Magnetismo").
+imparte("Andrei Solorzano Perez", "Electricidad y Magnetismo").
 
 imparte("Javier Gomez", "Etica, persona y sociedad").
 
 imparte("Iliana Barcenas", "Expresion verbal en el ambito profesional").
 
-imparte("Claire de Sagey", "Lengua Extranjera").
+imparte("Laura Elena Gaona Lara", "Ciudadania").
+
+imparte("Clarisa Arlette Mendez", "Expresion verbal en el ambito profesional").
+
+imparte("Claire Theste de Sagey", "Lengua Extranjera").
 
 imparte("Ericka Bauchwitz", "Lengua Extranjera").
 
@@ -305,41 +308,40 @@ requi("Estructura de Datos", "Metodos Cuantitativos y Simulacion").
 requi("Fundamentos de Ingenieria de Software", "Bases de Datos").
 
 %CuartoSemestre
-requi("Bases de Datos", "Desarrollo de Aplicaciones Web").
+requi("Bases de Datos", "Desarrollo de aplicaciones web").
 requi("Bases de Datos", "Analisis y Modelacion de Sistemas de Software").
 requi("Bases de Datos", "Bases de Datos Avanzadas").
 
-requi("Analisis y Diseno de Algoritmos", "Programacion Avanzada").
-requi("Analisis y Diseno de Algoritmos", "Graficas Computacionales").
+requi("Analisis y Diseno de Algoritmos", "Programacion avanzada").
+requi("Analisis y Diseno de Algoritmos", "Graficas computacionales").
 
-requi("Fundamentos de Redes", "Interconexion de Redes").
-requi("Fundamentos de Redes", "Seguridad Informatica").
+requi("Fundamentos de redes", "Interconexion de redes").
+requi("Fundamentos de redes", "Seguridad informatica").
 
 %QuintoSemestre
-requi("Interconexion de Redes", "Desarrollo de aplicaciones web").
+requi("Interconexion de redes", "Desarrollo de aplicaciones web").
 
-requi("Matematicas Computacionales", "Lenguajes de Programacion").
+requi("Matematicas computacionales", "Lenguajes de programacion").
 
-requi("Sistemas Operativos", "Programacion avanzada").
-requi("Sistemas Operativos", "Seguridad informatica").
+requi("Sistemas operativos", "Programacion avanzada").
+requi("Sistemas operativos", "Seguridad informatica").
 
-requi("Analisis y Modelacion de Sistemas de Software", "Proyecto de desarrollo de dispositivos moviles").
+requi("Analisis y modelacion de sistemas de software", "Proyectos de desarrollo para dispositivos moviles").
 
 %SextoSemestre
-requi("Proyecto de desarrollo de dispositivos moviles", "Proyecto Integrador para el desarrollo de soluciones empresariales").
+requi("Proyectos de desarrollo para dispositivos moviles", "Proyecto integrador para el desarrollo de soluciones empresariales").
 
-requi("Evaluacion y administracion de proyectos", "Administracion de proyectos de ingenieria de software").
+requi("Evaluacion y Administracion de Proyectos", "Administracion de proyectos de ingenieria de software").
 
 %SeptimoSemestre
-requi("Lenguajes de Programacion", "Diseño de Compiladores").
+requi("Lenguajes de programacion", "Diseno de compiladores").
 
-requi("Desarrollo de aplicaciones web", "Laboratorio de desarrollo de aplicaciones web").
+requi("desarrollo de aplicaciones Web", "Laboratorio de desarrollo de aplicaciones Web").
 
-%%%%%%%%999999
-
+%9
 materiaS(X,Y) :- materiaa(X,Y).
 
-%%%%%%%%10
+%10
 semestrey(X,Y) :- Y = 1 -> materiaa(X,"1");
                   Y = 2 -> materiaa(X,"2");
                   Y = 3 -> materiaa(X,"3");
